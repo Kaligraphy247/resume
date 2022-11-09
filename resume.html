@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
     <!-- <link rel="stylesheet" href="static/tailwind.css"> -->
     <link rel="stylesheet" href="style.min.css">
     <title>Resume</title>
 </head>
 <body class="body-font">
-    <section class="bg-[#f4f4f4] top-0 left-0 h-screen absolute w-[144px] md:w-[300px] lg:w-[360px] xl:w-[400px]">
+    <section class="bg-[#f4f4f4] top-0 left-0 h-full absolute w-[144px] md:w-[300px] lg:w-[360px] xl:w-[400px]">
         <!-- PROFILE PICTURE -->
         <div class="mt-6 mb-10">
             <img src="/static/img/profile.jpg" alt="profile picture" class="border-[12px] border-white rounded-full w-[170px] h-[170px] mx-auto">
@@ -22,7 +23,7 @@
             <!-- contact details -->
             <div class="py-4 text-stone-800">
                 <div>
-                    <ul>
+                    <ul class="">
                         <li><img src="static/img/pin.png" alt="location" class="w-5 float-left"></li>
                         <li><a class="text-[11px] pl-4">Bad Honnef 53604, Germany</a></li>
                     </ul>
@@ -146,30 +147,46 @@
             <div class="pl-8 bg-[#444440] text-gray-100 py-1">
                 <span>PROFILE</span>
             </div>
-            <!-- profile details -->
-            <div class="grid grid-cols-2 pt-2 gap-4">
-                <p class="text-[12px] pb-2 uppercase">Date of Birth</p>
-                <p class="text-[12px] pb-1">19/12/1999</p>
-            </div>
-            <div class="grid grid-cols-2 pt-0 gap-4">
-                <p class="text-[12px] pb-2 uppercase">Nationality</p>
-                <p class="text-[12px] pb-1">Nigerian</p>
-            </div>
-            <div class="grid grid-cols-2 pt-0 gap-4">
-                <p class="text-[12px] pb-2 uppercase">Languages</p>
-                <p class="text-[12px] pb-1">English, Igbo</p>
-            </div>
-            <div class="grid grid-cols-2 pt-0 gap-4">
-                <p class="text-[12px] pb-2 uppercase">hobbies</p>
-                <p class="text-[12px] pb-1">Movies, Programming, Travelling</p>
-            </div>
+                <!-- profile details -->
+                <div class="grid grid-cols-2 pt-2 gap-4">
+                    <p class="text-[12px] pb-2 uppercase">Date of Birth</p>
+                    <p class="text-[12px] pb-1">19/12/1999</p>
+                </div>
+                <div class="grid grid-cols-2 pt-0 gap-4">
+                    <p class="text-[12px] pb-2 uppercase">Nationality</p>
+                    <p class="text-[12px] pb-1">Nigerian</p>
+                </div>
+                <div class="grid grid-cols-2 pt-0 gap-4">
+                    <p class="text-[12px] pb-2 uppercase">Languages</p>
+                    <p class="text-[12px] pb-1">English, Igbo</p>
+                </div>
+                <div class="grid grid-cols-2 pt-0 gap-4">
+                    <p class="text-[12px] pb-2 uppercase">hobbies</p>
+                    <p class="text-[12px] pb-1">Movies, Programming, Travelling</p>
+                </div>
         </div>
 
+
+        <!-- ABOUT ME -->
+        <div class="mb-10">
+            <div class="pl-8 bg-[#444440] text-gray-100 py-1">
+                <span>ABOUT</span>
+            </div>
+            <div>
+                <br>
+                <p class="text-[13px] indent-5 text-justify">
+                    I am an intermediate python developer and Tech enthusiast.
+                    I have been working in the IT industry for 2 years.
+                    I have experience in developing web applications with Python using Flask and Django. I am proficient in using HTML, CSS, and a little bit of JavaScript.
+                    I am passionate about learning new technologies and keeping up with the latest trends in the IT industry.
+                </p>
+            </div>
+        </div>
 
         <!-- WORK EXPERIENCE -->
         <div class="">
             <div class="pl-8 bg-[#444440] text-gray-100 py-1">
-                <span>EXPERIENCE</span>
+                <span>PROFESSIONAL EXPERIENCE</span>
             </div>
             <!-- experience details -->
             <div>
@@ -179,7 +196,7 @@
                 </div>
                 <div>
                     <p class="font-semibold text-[14px]">Junior Backend Developer</p>
-                    <p class="text-[12px] indent-5">I devevop and manage a working backend service for my clients, as well as developing secure cloud-based software for clients.</p>
+                    <p class="text-[12px] indent-5">I develop and manage a working backend service for my clients, as well as developing secure cloud-based software for clients.</p>
                 </div>
             </div>
             <div>
